@@ -1,0 +1,150 @@
+@media (max-width: 1300px) {
+    .blog .content .tit {
+        font-size: 20px;
+    }
+    .myabout {
+        column-gap: 3rem;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .caption {
+        height: 100px;
+        top: 39%;
+        left: 32%;
+    }
+    .logo {
+        width: 70px;
+        height: 100%;
+        position: relative;
+    }
+    .logo img {
+        top: 25px;
+        left: 30px;
+    }
+    .comment {
+        margin-left: 50px;
+        margin-bottom: 10px;
+    }
+    .myBlogs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .blog {
+        margin: 15px 0 15px;
+    }
+    #about {
+        padding-block: 40px;
+    }
+    #about .info h2 {
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    #services .serv {
+        padding: 20px 20px;
+        transition: all 0.7s;
+        margin-block: 10px;
+    }
+    .myservices {
+        padding-top: 20px;
+    }
+    .logo {
+        width: 70px;
+        height: 100%;
+        position: relative;
+    }
+    .logo img {
+        top: 25px;
+        left: 25px;
+    }
+    .comment {
+        margin-left: 50px;
+        margin-bottom: 10px;
+    }
+    .detail {
+        margin-block: 30px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .caption {
+        height: 100px;
+        top: 29%;
+        left: 18%;
+    }
+    #portfolio .port-menu ul li a {
+        font-size: 12px;
+    }
+    #portfolio .port-menu {
+        padding: 20px 0 20px;
+    }
+    .pics {
+        margin-bottom: 25px;
+    }
+    .caption h3 {
+        font-size: 20px;
+    }
+    .caption h1 {
+        font-size: 45px;
+    }
+    .caption h4 {
+        font-size: 20px;
+    }
+    .myrow {
+        gap: 35px;
+    }
+    #final p {
+        font-size: 12px;
+    }
+    .about-btn {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 10px;
+    }
+    #about .info td {
+        font-size: 13px;
+    }
+    #about .info table span {
+        font-size: 13px;
+    }
+    #about .info td {
+        padding-right: 50px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .info {
+        padding-left: 5px;
+        padding-right: 10px;
+    }
+    .about-img {
+        padding-left: 3%;
+    }
+    #about .photo {
+        width: 100%;
+    }
+    #about .info p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 359px) {
+    #about .info p {
+        font-size: 12px;
+    }
+    .btn222 {
+        font-size: 14px;
+        padding: 7px 8px;
+    }
+    .about-img {
+        padding-left: 3%;
+    }
+    #about .photo img {
+        width: 100%;
+    }
+}
